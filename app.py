@@ -86,8 +86,6 @@ def process_form():
     return render_template('delivery.html', prediction_result="{}".format(formatted_time))
 
 
-
-
 if __name__ == "__main__":
     app.run(debug =True)
 
