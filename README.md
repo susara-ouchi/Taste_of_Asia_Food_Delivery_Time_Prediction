@@ -1,4 +1,4 @@
-# Tase of Asia - Food-delivery-prediction-website
+# Taste of Asia - Food-delivery-prediction-website
 
 “A perfectly cooked meal means nothing if it’s not served on time”. 
 
