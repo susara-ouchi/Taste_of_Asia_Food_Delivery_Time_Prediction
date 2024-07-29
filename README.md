@@ -11,4 +11,6 @@ Hence, the analysis was mainly directed towards addressing two objectives,
 1)	Identifying the factors that have the most significant influence on the food delivery time.
 2)	Developing an effective delivery time prediction model that will aid the delivery companies in evaluating their performance showing them necessary directions for improvements
 
-This project uses ML techniques to predict the food delivery time given a set of most significant variables.
+The response variable, Delivery Time (in minutes) was a continuous one, which led to the use of multiple linear regression as the benchmark model, and the model was evaluated with MSE and R-squared metrics. Despite outliers, similar metrics were obtained with and without them for the benchmark model, so they were retained in the analysis. Thereafter, various models (KNN, SVR, XGBoost, Random Forest) were tested, with XGBoost and Random Forest performing best and yielding almost identical results. To resolve the dilemma of choosing between them, an ensemble model combining both was created, leveraging their strengths and chosen as the best model for predicting delivery time. 
+
+To sum up, the analysis highlighted key factors crucial for enhancing delivery time. It also offers valuable insights for delivery companies aiming to improve their services, particularly in densely populated countries like India with unique logistical challenges. Implementing changes based on these findings could hopefully lead to more efficient and timely deliveries, ultimately boosting customer satisfaction and loyalty.
