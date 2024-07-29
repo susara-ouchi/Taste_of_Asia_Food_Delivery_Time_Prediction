@@ -24,8 +24,7 @@ def delivery():
 def contact():
     return render_template('contact.html')
 
-
-
+# loading the pickle file
 model = pickle.load(open('model.pkl','rb'))
 
 @app.route('/process_form', methods =["POST"])
