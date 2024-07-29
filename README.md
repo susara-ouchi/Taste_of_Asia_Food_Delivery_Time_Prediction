@@ -1,5 +1,7 @@
 # Taste of Asia - Food-delivery-prediction-website
 
+### Contributors: Susara Ouchithya, Thiruni Withana, Heshani Kavindya
+
 “A perfectly cooked meal means nothing if it’s not served on time”. 
 
 In the fast-paced world we live in, food delivery has become more than just a convenience, it’s a solution that brings the flavors of the world to your doorstep, turning every meal into an experience without leaving the comfort of your home. 
